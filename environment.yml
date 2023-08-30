@@ -1,0 +1,15 @@
+name: pal_torch
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python
+  - pytorch=*=*cuda*
+  - pytorch-cuda
+  - wandb
+  - pip
+  - pip:
+      - stable-baselines3
+      - git+https://github.com/kiselas/AttrDictionary.git

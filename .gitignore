@@ -1,0 +1,12 @@
+src/data/
+src/models/
+__pycache__/
+log.txt
+*.xml
+*.iml
+.DS_Store
+*.lprof
+
+src/logs/
+
+src/wandb/
